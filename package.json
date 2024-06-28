@@ -1,5 +1,5 @@
 {
-  "name": "forkphorus-cloud-server",
+  "name": "clouddata-server",
   "version": "0.1.0",
   "description": "",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
     "test": "jest",
     "check": "tsc"
   },
-  "author": "GarboMuffin",
+  "author": "Sunwuyuan",
   "license": "MIT",
   "dependencies": {
     "finalhandler": "^1.2.0",
