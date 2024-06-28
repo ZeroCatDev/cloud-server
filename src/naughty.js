@@ -64,7 +64,8 @@ function loadFilters() {
  */
 function naughty(text) {
   // Remove non alphanumerics
-  text = text.replace(/[^a-z0-9]/gi, '');
+//  text = text.replace(/[^a-z0-9]/gi, '');
+  text = text.replace(/^[^\s]+$/gi, '');
 
   const length = FILTERS.length;
   for (var i = 0; i < length; i++) {
